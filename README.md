@@ -34,25 +34,25 @@
 ## Screenshots
 
 ### Empty Message Schedule
- ![](screenshots/empty_schedule.png)
+ <img src="screenshots/empty_schedule.png" width="256" height="512" />
 
 ### Create Message
- ![](screenshots//create_message_incomplete.png)
- ![](screenshots/create_message_pick_time.png)
- ![](screenshots/create_message_complete.png)
+ <img src="screenshots//create_message_incomplete.png"  width="256" height="512" />
+ <img src="screenshots/create_message_pick_time.png"  width="256" height="512" />
+ <img src="screenshots/create_message_complete.png"  width="256" height="512" />
 
 ### Filled Schedule
- ![](screenshots/filled_schedule.png)
- ![](screenshots/schedule_with_popup_action.png)
+ <img src="screenshots/filled_schedule.png"  width="256" height="512" />
+ <img src="screenshots/schedule_with_popup_action.png"  width="256" height="512" />
 
 ### View Message
- ![](screenshots/view_message.png)
+ <img src="screenshots/view_message.png" width="256" height="512" />
 
 ### Edit Message
- ![](screenshots/edit_message.png)
+ <img src="screenshots/edit_message.png" width="256" height="512" />
 
 ### Settings
- ![](screenshots/settings.png)
+ <img src="screenshots/settings.png" width="256" height="512" />
 
 
 ## Todo
