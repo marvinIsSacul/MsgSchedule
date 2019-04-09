@@ -41,18 +41,18 @@ abstract class DateTimeFormator {
     return '${dt.day} ${months[dt.month - 1]} ${dt.year}';
   }
 
-  /**
-	 * Timespan
-	 *
-	 * Returns a span of seconds in this format:
-	 *	10 days 14 hours 36 minutes 47 seconds
-	 *
-	 * [datetime]	The datetime
-   * 
-	 * [otherDateTime]	Unix timestamp
-   * 
-	 * [units] The number of display units
-	 */
+  ///
+	/// Timespan
+	///
+	/// Returns a span of seconds in this format:
+	///	10 days 14 hours 36 minutes 47 seconds
+	///
+	/// [datetime]	The datetime
+  /// 
+	/// [otherDateTime]	Unix timestamp
+  ///
+	/// [units] The number of display units
+  ///
 	static String timespan(DateTime datetime, {DateTime otherDateTime, int units: 1})
 	{
     final List<String> str = [];

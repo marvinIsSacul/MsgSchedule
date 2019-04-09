@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:msgschedule_2/providers/MessageProvider.dart';
 //import 'package:msgschedule_2/providers/SettingsProvider.dart';
 
@@ -25,12 +24,6 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   void initState() {
     super.initState();
     _home = SchedulePage(title: _appName);
-    //_home = AppPermissions();
-   // _initSingletonProviders();
-
-    //var asd = ApplicationSwitcherDescription();
-    //asd.label = _appName;
-    //SystemChrome.setApplicationSwitcherDescription(i);
   }
 
   @override
@@ -38,11 +31,6 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
     super.dispose();
 
     _disposeSingletonProviders();
-  }
-
-  void _initSingletonProviders() {
-    //MessageProvider.getInstance();
-   // SettingsProvider.getInstance();
   }
 
   void _disposeSingletonProviders() {
@@ -67,10 +55,6 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       ),
       home: _home,
     );
-  }
-
-  void _processSchedule() {
-    
   }
 }
 

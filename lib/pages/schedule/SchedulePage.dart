@@ -7,14 +7,11 @@ import 'package:flutter/material.dart';
 import 'package:msgschedule_2/blocs/MessageBloc.dart';
 
 import 'package:msgschedule_2/models/Message.dart';
-import 'package:msgschedule_2/models/Settings.dart';
 import 'package:msgschedule_2/pages/schedule/ArchivedMessages.dart';
 import 'package:msgschedule_2/pages/schedule/CreateOrEditSmsMessagePage.dart';
 import 'package:msgschedule_2/pages/settings/SettingsPage.dart';
 import 'package:msgschedule_2/providers/DialogProvider.dart';
-import 'package:msgschedule_2/providers/MessageProvider.dart';
 import 'package:msgschedule_2/providers/ScheduleProvider.dart';
-import 'package:msgschedule_2/providers/SettingsProvider.dart';
 import './Schedule.dart';
 
 

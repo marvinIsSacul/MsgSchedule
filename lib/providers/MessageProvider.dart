@@ -19,14 +19,13 @@ class MessageProvider {
  // final String _tblMessageExecutions = 'MessageExecutions';
 
   MessageProvider._() {
-    debugPrint('MessageProvider constructor()');
+    
     _init();
   }
 
   bool get isReady => _isInit;
 
   Future<Database> _init() async {
-debugPrint('MessageProvider _init() start');
     
     Directory appDocDir = await getApplicationDocumentsDirectory();
     final documentsDirectory = appDocDir.path;
@@ -41,9 +40,6 @@ debugPrint('MessageProvider _init() start');
     );
 
     _isInit = true;
-
-    debugPrint('MessageProvider _init() end');
-
 
     return _database ?? (_database = _db);
   }
@@ -89,6 +85,7 @@ debugPrint('MessageProvider _init() start');
     return _instance;
   }
 
+  /// Deletes a message based on its id.
   Future<bool> removeMessage(int messageId) async {
     Database db = await _init();
     _database ??= db;

@@ -117,7 +117,7 @@ class _SettingsPage extends State<SettingsPage> {
     return _settingsGroup('Messages', [
       ListTile(
         title: Text('Max Attempts'),
-        subtitle: Text('The maximum number of attempts a message should tried to be sent when it keeps failing.'),
+        subtitle: Text('The maximum number of attempts a message should try to be sent when it keeps failing.'),
         trailing: DropdownButton<int>(
           value: settings.message.maxAttempts,
           items: <int>[null, 1, 2, 3, 4, 5,]

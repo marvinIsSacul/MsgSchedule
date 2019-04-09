@@ -40,7 +40,7 @@ class SettingsProvider {
     settings.system.shouldAutoCheckUpdates = false;
     settings.system.shouldShowMessageFailedNotifications = true;
     settings.system.shouldShowMessageSentNotifications = true;
-    settings.system.shouldShowNotifications = true;
+    settings.system.shouldShowNotifications = false;
 
     return settings;
   }
