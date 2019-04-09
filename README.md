@@ -55,6 +55,11 @@
  <img src="screenshots/settings.png" width="256" height="512" />
 
 
+## Building and Running
+
+`> flutter packages get && flutter run`
+
+
 ## Todo
 
 - Process the message schedule when app is running in the background.
